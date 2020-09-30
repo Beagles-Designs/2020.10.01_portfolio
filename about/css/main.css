@@ -1,0 +1,223 @@
+/***** BASE STYLES ****/
+/** reference 
+font-family: 'David Libre', serif; **/
+
+body {
+	color: #000000;
+	font-family: 'David Libre', serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin: 0;
+}
+
+/*** GRID SECTION ***/
+
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1200px;
+	
+}
+
+.half-width {
+	width: 600px;
+	box-sizing: border-box;
+}
+
+.third-width {
+	float: left;
+	width: 398px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #154229;
+}
+
+/*** HEADER *****/
+
+header .full-width {
+	background-color: #faebd7;
+	margin-bottom: 5px;
+}
+
+#name {
+	float: left;
+	padding: 25px 25px;
+}
+
+#menu {
+	float: right;
+	padding: 25px 25px;
+}
+
+header h1 {
+	font-family:'Lora', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 23px; 
+	color: #154229;
+	text-align: left;
+	padding-left: 25px;
+}
+
+nav ul {
+	float: right;
+	padding-right: 25px;
+}
+
+nav ul li{
+	color: #036a66;
+	display: inline-block;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+
+nav ul li a{ 
+	color: #036a66;
+	font-size: 35px;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+/**Portfolio Options**/
+
+.dropbtn {
+	background: none;
+    border: none;
+	color: #036a66;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+
+.dropdown {
+
+	display: inline-block;
+}
+
+.portfolio-options {
+	display: none;
+	position: absolute;
+	background-color: #faebd7;
+	min-width: auto;
+	z-index: 1;
+}
+
+.portfolio-options a {
+	color: #036a66;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 10px 5px;
+	display: block;
+}
+
+.dropdown:hover .portfolio-options {
+	display: block;
+}
+
+/** Main **/
+
+#about {
+	background-color: #faebd7;
+	display: block;
+}
+
+main h2 {
+	font-family: 'Lora', sans-serif;
+	font-size: 40px;
+	color: #60355e;
+	font-weight: 400;
+	margin-top: 50px;
+    padding-top: 0;
+}
+
+#background p, #passion p {
+	font-family: 'David Libre', serif;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+#portrait {
+	float: left;
+	background-image: url(../img/portrait.png);
+	background-size: contain;
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+	margin: 50px 25px 50px 50px;
+}
+
+.about-top  {
+	display: inline-block;
+	float: left;
+}
+
+.about-top p {
+	padding: 0px 50px 0 0;
+}
+
+.about-bottom p{
+	padding: 0 50px 25px 50px;
+	margin-top: 0;
+}
+
+/** Footer **/
+ 
+footer .full-width {
+	background-color: #faebd7;
+	margin-top: 5px;
+}
+
+#contact {
+	float: left;
+	text-align: center;
+	padding: 25px 25px;
+}
+
+#social-media {
+	float: right;
+	text-align: center;
+	padding: 25px 25px;
+}
+
+#social-media ul {
+	float: right;
+	margin: 0 70px 0 0;
+}
+
+#social-media ul li {
+	display: inline-block;
+	padding: 25px 25px;
+}
+
+#social-links ul li a {
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+#contact h3, #social-media h3 {
+	color: #036a66;
+	text-decoration: underline;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 23px;
+	text-transform: capitalize;
+	margin-top: 25px;
+}
+
+#contact a {
+	color: #036a66;
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 100%;
+}
+
+#contact img {
+	margin-top: 20px;
+}
+
+
+

@@ -1,0 +1,255 @@
+/***** BASE STYLES ****/
+/** reference 
+font-family: 'David Libre', serif; **/
+
+body {
+	color: #000000;
+	font-family: 'David Libre', serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin: 0;
+}
+
+/*** GRID SECTION ***/
+
+.full-width {
+	margin: 0 auto;
+	overflow: auto;
+	width: 1200px;
+	box-sizing: border-box;
+}
+
+.half-width {
+	width: 600px;
+	box-sizing: border-box;
+}
+
+.third-width {
+	float: left;
+	width: 398px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #154229;
+}
+
+/*** HEADER *****/
+
+header .full-width {
+	background-color: #faebd7;
+	margin-bottom: 5px;
+}
+
+#name {
+	float: left;
+	padding: 25px 25px;
+}
+
+#menu {
+	float: right;
+	padding: 25px 25px;
+}
+
+header h1 {
+	font-family:'Lora', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 23px; 
+	color: #154229;
+	text-align: left;
+	padding-left: 25px;
+}
+
+nav ul {
+	float: right;
+	padding-right: 25px;
+}
+
+nav ul li{
+	color: #036a66;
+	display: inline-block;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+
+nav ul li a{ 
+	color: #036a66;
+	font-size: 35px;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+/**Portfolio Options**/
+
+.dropbtn {
+	background: none;
+    border: none;
+	color: #036a66;
+	font-size: 35px;
+	text-transform: capitalize;
+}
+
+.dropdown {
+
+	display: inline-block;
+}
+
+.portfolio-options {
+	display: none;
+	position: absolute;
+	background-color: #faebd7;
+	min-width: auto;
+	z-index: 1;
+}
+
+.portfolio-options a {
+	color: #036a66;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 10px 5px;
+	display: block;
+}
+
+.dropdown:hover .portfolio-options {
+	display: block;
+}
+
+/** Main **/
+
+#labryinth {
+	background-color: #faebd7;
+	background-image: url('../img/labryinth-pic-opacity.png');
+	background-size: 600px 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 800px;
+	position: relative;
+}
+
+
+.main-ribbon {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #60355e;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #60355e;
+    width: 1200px;
+    position: absolute;
+    top: 52%;
+    height: 134px;
+    margin-top: -70px;
+    background-color: #faebd7;
+    box-sizing: border-box;
+}
+
+.full-width #back-border {
+	border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #60355e;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #60355e;
+    position: absolute;
+	top: 41%;
+    height: 153px;
+    margin-top: -100px;
+    background-color: #faebd7;
+    box-sizing: border-box;
+}
+
+.main-ribbon h2 {
+	text-align: center;
+	margin: 0;
+	font-family: 'Lora', sans-serif;
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: 400;	
+	color: #60355e;
+
+	}
+
+main p {
+	font-family: 'David Libre', serif;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.logo {
+	margin-top: 15px;
+}
+
+.left {
+	padding: 22px 32px 22px 120px;
+	box-sizing: border-box;
+
+}
+
+.right {
+	float: right;
+	text-align: center;
+	padding: 22px 120px 22px 32px;
+	box-sizing: border-box;
+}
+
+
+/** Footer **/
+ 
+footer .full-width {
+	background-color: #faebd7;
+	margin-top: 5px;
+}
+
+#contact {
+	float: left;
+	text-align: center;
+	padding: 25px 25px;
+}
+
+#social-media {
+	float: right;
+	text-align: center;
+	padding: 25px 25px;
+}
+
+#social-media ul {
+	float: right;
+	margin: 0 70px 0 0;
+}
+
+#social-media ul li {
+	display: inline-block;
+	padding: 25px 25px;
+}
+
+#social-links ul li a {
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+#contact h3, #social-media h3 {
+	color: #036a66;
+	text-decoration: underline;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 23px;
+	text-transform: capitalize;
+	margin-top: 25px;
+}
+
+#contact a {
+	color: #036a66;
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 100%;
+}
+
+#contact img {
+	margin-top: 20px;
+}
+
+
+

@@ -80,6 +80,10 @@ nav ul li a{
 	text-decoration: none;
 	padding: 0 5px;
 }
+nav ul li a:hover{ 
+	background-color:white;
+		color:black;
+}
 
 /**Portfolio Options**/
 
@@ -143,6 +147,7 @@ main h2 {
 	float: left;
 	background-image: url(../img/portrait.png);
 	background-size: contain;
+	background-repeat:no-repeat;
 	display: inline-block;
 	width: 300px;
 	height: 300px;

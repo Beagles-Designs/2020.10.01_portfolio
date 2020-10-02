@@ -81,6 +81,11 @@ nav ul li a{
 	padding: 0 5px;
 }
 
+nav ul li a:hover{ 
+	background-color: #036a66;
+	color: white;
+}
+
 /**Portfolio Options**/
 
 .dropbtn {
@@ -113,8 +118,14 @@ nav ul li a{
 	display: block;
 }
 
+.dropbtn:hover {
+	background-color: #036a66;
+	color: white;
+}
+
 .dropdown:hover .portfolio-options {
 	display: block;
+	border: 1px solid white;
 }
 
 /** Main **/
@@ -144,8 +155,10 @@ main h2 {
 	background-image: url(../img/portrait.png);
 	background-size: contain;
 	display: inline-block;
+	background-repeat: no-repeat;
+	padding: 0;
 	width: 300px;
-	height: 300px;
+	height: 259px;
 	box-sizing: border-box;
 	margin: 50px 25px 50px 50px;
 }
